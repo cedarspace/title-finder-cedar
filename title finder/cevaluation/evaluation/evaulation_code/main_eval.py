@@ -1,7 +1,7 @@
 
 
 # evaluates a model from training on data. 
-class evaluator:
+class Evaluator:
     #EFFECTS: constructs an evaluator. 
     # optimal_thrshold: the number above which the tag in a model is labelled as a title 
     # model: the model produced from training 
