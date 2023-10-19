@@ -3,7 +3,7 @@ from training_file_copies import b_pos_tagger_deploy
 from training_file_copies import model
 
 # finds titles in a passage using a model 
-class deployer:
+class Deployer:
     def __init__(self, threshold : int , model : dict , sentences : list , tags : list, titles : list) -> None:
         self.threshold = threshold 
         self.model = model 
