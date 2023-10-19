@@ -3,7 +3,7 @@ from c_bigram_trigram import list_of_list
 
 
 # training class with the tags it extracts from the training data and the model it outputs after training. 
-class trainer: 
+class Trainer: 
 
     #EFFECTS: constructs a trainer with the training data and empty POS tags and model. 
     def __init__(self, training_data: list) -> None:
